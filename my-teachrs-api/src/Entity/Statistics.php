@@ -19,7 +19,7 @@ class Statistics
     /** 
      * @ORM\Column(type="integer", options={"default":0})
      */
-    private $countInsert;
+    private $countInsert = 0;
 
     public function getId(): ?int
     {
